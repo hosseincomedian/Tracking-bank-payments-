@@ -1,0 +1,18 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sql_server</title>
+</head>
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+<body>
+    <fieldset>
+    <form action="{% url 'main_url' %}" , style="margin: 450px 450px;" class="center" method="POST">
+        {% csrf_token %}
+      <input placeholder="voucher id?"  required="True" style="height:20px;font-size:14pt;" name="voucher_id"   />
+      <input type="submit" style="height:30px;font-size:14pt;" name="Search" value="ارسال"   />
+    </form>    
+    </fieldset>
+</body>
+</html>
