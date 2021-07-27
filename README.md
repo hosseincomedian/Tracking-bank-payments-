@@ -3,9 +3,9 @@ sql server &amp; django project
 The system must first have sql server, python (in python django, pyodbc)
 # step 2:
 in the sql files run 1...3.sql files in your sql server db
-# step 2:
+# step 3:
 in the server_sql/main edit views.py file :
 ![alt text](https://raw.githubusercontent.com/hosseincomedian/Tracking-bank-payments-/master/readme.PNG)
 set your db info.
-# step 3:
+# step 4:
 python manage.py runserver
